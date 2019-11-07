@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "iOS 埋点测试"
 
-  spec.homepage     = "https://github.com/jazzforlove/JLAspectsKit"
+  spec.homepage     = "https://github.com/jazzforlove/JLAspectsKit.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/jazzforlove/JLAspectsKit", :tag => "v1.0.0" }
+  spec.source       = { :git => "https://github.com/jazzforlove/JLAspectsKit.git", :tag => "v1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,10 +89,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "JLAspectsKit.a"
+  spec.exclude_files = ""
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "JLAspectsKit/AspectMananer.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
