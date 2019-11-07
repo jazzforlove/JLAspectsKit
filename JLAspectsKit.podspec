@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "JLAspectsKit"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of JLAspectsKit."
+  spec.summary      = "埋点统计."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/JLAspectsKit"
+  spec.homepage     = "https://github.com/jazzforlove"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
