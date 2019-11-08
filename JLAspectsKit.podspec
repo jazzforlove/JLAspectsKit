@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "JLAspectsKit/JLAspectsKit.a"
+  spec.source_files  = "JLAspectsKit/*.{h,a}"
   spec.exclude_files = ""
 
   # spec.public_header_files = "JLAspectsKit/AspectMananer.h"
